@@ -1,0 +1,40 @@
+generated: '2026-07-19'
+method: searched
+source: https://everledger.io/release-notes-blockchain-more/
+scheme: semver
+current_version: 1.5.2
+note: >-
+  Everledger publishes dated product updates on its release-notes page. The
+  public release notes have not been updated since the company's 2023
+  restructuring; the most recent published entry is 1.5.2 (August 2022). Entries
+  below are the recent window captured verbatim from the public page.
+entries:
+- version: 1.5.2
+  date: '2022-08'
+  highlights:
+  - Support for partial event information in diamond browsing
+  - New file formats including Vision360 scans
+  - Expanded diamond shapes and dedicated lab-grown diamond event types
+- version: '1.5'
+  date: '2022-04'
+  highlights:
+  - Comprehensive lab-grown diamond support
+  - Fancy coloured diamonds with enhanced grading data
+  - NFT minting integrated with Web3 marketplaces
+  - Redesigned Amplify Widget with improved customization
+- version: 1.4.2
+  date: null
+  highlights:
+  - JavaScript bundle lets eCommerce sites embed the provenance Widget
+  - Public provenance links without platform login
+- version: 1.4.1
+  date: null
+  highlights:
+  - Asset availability filtering (all assets vs. available for sale)
+  - New Vault filter capabilities for gem-specific categories
+- version: '1.4'
+  date: '2021-04'
+  highlights:
+  - Launched Everledger Identify for product authentication and mobile ownership
+  - Public provenance record sharing via unique URLs
+  - APIs supporting marketplace integrations

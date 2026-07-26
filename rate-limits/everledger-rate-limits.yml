@@ -1,0 +1,13 @@
+generated: '2026-07-19'
+method: searched
+source: https://everledger.io/our-platform/pricing/
+note: >-
+  Everledger meters API usage as monthly lookup quotas tied to the pricing plan,
+  plus pay-as-you-go transfer fees. No per-second/burst rate limits or
+  rate-limit response headers are documented on the public surface.
+limits:
+- plan: Amplify
+  limit_count: 500
+  window: monthly
+  unit: lookups
+  overage: Pay-as-you-go transfer fees apply

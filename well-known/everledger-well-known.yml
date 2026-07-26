@@ -1,0 +1,28 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of Everledger website + API hosts
+hosts:
+- host: https://everledger.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    file: everledger-security.txt
+  - path: /.well-known/openid-configuration
+    status: 404
+- host: https://api.everledger.io
+  note: >-
+    Production API host resolves (AWS ELB, eu-west-2) but every path returns 401
+    Unauthorized — the Everledger Platform API is fully gated behind the
+    invite-only Everledger Developer Community, so no public /.well-known/ or spec
+    documents are exposed.
+  documents:
+  - path: /.well-known/security.txt
+    status: 401
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/oauth-authorization-server
+    status: 401
+  - path: /.well-known/api-catalog
+    status: 401
+  - path: /.well-known/ai-plugin.json
+    status: 401

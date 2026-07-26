@@ -1,7 +1,19 @@
 aid: everledger
 name: Everledger
-description: Everledger is a company surfaced as a portfolio company of bloomberg-beta and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Everledger is a supply-chain transparency company that uses a private,
+  enterprise blockchain plus IoT to create tamper-evident digital identities
+  ("digital twins") for physical assets and to track their provenance from origin
+  to market. Its platform spans diamonds, coloured gemstones, wine and spirits,
+  art, fashion and luxury goods, critical minerals, batteries and insurance. The
+  developer surface is the Everledger Platform API (marketed as "Amplify") — a
+  suite of REST APIs including the Provenance API (a full, media-rich provenance
+  report for any object), the Object API (verify an object's identity against its
+  digital twin) and the Transfer API (reassign ownership of a digital asset on the
+  blockchain when a sale is made) — plus an embeddable Amplify Widget for
+  eCommerce. Access is via the invite-only Everledger Developer Community (EDC).
+  Founded by Leanne Kemp and backed by Bloomberg Beta, the company restructured in
+  2023 and continues to operate on its core gems, minerals and textiles markets.
 url: https://raw.githubusercontent.com/api-evangelist/everledger/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +21,104 @@ x-backed-by:
 - bloomberg-beta
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: paid
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Paid · Requires approval
+  confidence: medium
+  source:
+  - plans
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://everledger.io/wp-content/uploads/2021/03/everledger-logo.png
 tags:
 - Company
-apis: []
+- Blockchain
+- Provenance
+- Supply Chain
+- Traceability
+- Digital Twin
+- Authentication
+- Sustainability
+- Diamonds
+- Luxury Goods
+- Anti-Counterfeiting
+apis:
+- name: Everledger Platform API (Amplify)
+  description: >-
+    The Everledger Platform API — marketed as Amplify — is a suite of REST APIs
+    that let organizations access and embed blockchain-backed provenance data in
+    their own systems. Core APIs include the Provenance API (complete, datestamped,
+    media-rich provenance report for any object), the Object API (verify an
+    object's identity via its digital twin) and the Transfer API (record immutable
+    transfers of ownership on the blockchain). Access is gated through the
+    invite-only Everledger Developer Community.
+  humanURL: https://everledger.io/edc/
+  baseURL: https://api.everledger.io
+  tags:
+  - Provenance
+  - Blockchain
+  - Supply Chain
+  - Digital Twin
+  properties:
+  - type: DeveloperPortal
+    url: https://everledger.io/edc/
+  - type: SignUp
+    url: https://everledger.io/everledger-developer-community/
+common:
+- type: DeveloperPortal
+  url: https://everledger.io/edc/
+- type: Documentation
+  url: https://everledger.io/our-platform/platform-amplify
+- type: Pricing
+  url: https://everledger.io/our-platform/pricing/
+  name: Everledger pricing plans
+- type: TermsOfService
+  url: https://everledger.io/terms/
+- type: PrivacyPolicy
+  url: https://everledger.io/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/everledger
+- type: Support
+  url: https://everledger.io/contact-us-submission/
+- type: SignUp
+  url: https://everledger.io/everledger-developer-community/
+- type: ChangeLog
+  url: https://everledger.io/release-notes-blockchain-more/
+  name: Everledger product updates
+- type: ChangeLog
+  url: changelog/everledger-changelog.yml
+  name: Everledger changelog artifact
+- type: Lifecycle
+  url: lifecycle/everledger-lifecycle.yml
+- type: Plans
+  url: plans/everledger-plans.yml
+- type: RateLimits
+  url: rate-limits/everledger-rate-limits.yml
+- type: SecurityTxt
+  url: well-known/everledger-security.txt
+- type: WellKnown
+  url: well-known/everledger-well-known.yml
+- type: VulnerabilityDisclosure
+  url: security/everledger-vulnerability-disclosure.yml
+- type: Security
+  url: https://everledger.io/.well-known/security.txt
+  name: Everledger vulnerability disclosure policy
+- type: DomainSecurity
+  url: security/everledger-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

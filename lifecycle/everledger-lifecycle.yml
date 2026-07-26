@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: searched
+source: https://everledger.io/release-notes-blockchain-more/
+versioning:
+  scheme: semver
+  current: 1.5.2
+  docs: https://everledger.io/release-notes-blockchain-more/
+deprecation: null
+sla:
+  note: >-
+    No public SLA / uptime target is published. The platform is described as "a
+    private blockchain network with enterprise speed"; service commitments are
+    handled via the customer service desk (customersuccess@everledger.io).
+status_page: null
+deprecated_operations: []
+notes: >-
+  No public status page or formal deprecation policy was found. Versioning
+  follows semver as evidenced by the dated product-update / release-notes page.

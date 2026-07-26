@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: https://everledger.io/our-platform/pricing/
+currency: USD
+free_trial: 30-day free trial on all plans; annual payment discounts available
+plans:
+- name: Amplify
+  price: 199.00
+  period: monthly
+  audience: eCommerce diamond retailers
+  includes:
+  - Provenance API or Widget access
+  - Showcase object origin and product claims on your eCommerce site
+  - API ownership transfers
+  - Up to 500 monthly lookups
+  - Pay-as-you-go transfer fees apply
+- name: Capture
+  price: 199.00
+  period: monthly
+  audience: All diamond retailers
+  includes:
+  - Source inventory and suppliers into a private, secure asset Vault
+  - In-store provenance storytelling
+  - Consumer ownership transfers
+  - Amplify included free (limited time)
+  - Additional user licenses at $49 per person/month
+- name: Identify
+  price: null
+  period: custom
+  audience: Consumer engagement solution
+  includes:
+  - Unique digital Object ID with encoded identifiers (QR, NFC or tamper-proof seals)
+  - Consumer asset vault
+  - Brand-customizable configuration
