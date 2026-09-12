@@ -83,6 +83,8 @@ apis:
   - type: SignUp
     url: https://everledger.io/everledger-developer-community/
 common:
+- type: Website
+  url: https://everledger.io/
 - type: DeveloperPortal
   url: https://everledger.io/edc/
 - type: Documentation
