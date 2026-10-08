@@ -32,3 +32,31 @@ plans:
   - Unique digital Object ID with encoded identifiers (QR, NFC or tamper-proof seals)
   - Consumer asset vault
   - Brand-customizable configuration
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Amplify
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Capture
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods:
+    - month
+  - name: Identify
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - term
